@@ -1,11 +1,10 @@
-body {
-    font-size: 24px;
+div {
+    display: inline-block;
 }
 
-.page {
-    color: green;
-}
-
-.list { 
-    color: orange;
+span {
+    background-color: yellow;
+    width: 200px;
+    height: 100px;
+    display: block;
 }
