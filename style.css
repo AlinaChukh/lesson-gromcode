@@ -1,10 +1,15 @@
-div {
-    display: inline-block;
+body {
+    background-color: green;
 }
 
-span {
-    background-color: yellow;
-    width: 200px;
-    height: 100px;
-    display: block;
+li {
+    font-size: 24px;
+}
+
+.page-header {
+    background-color: orange;
+}
+
+#best {
+    border: 2px solid red;
 }
