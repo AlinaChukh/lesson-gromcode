@@ -1,9 +1,9 @@
-.already-learned ul {
+.already-learned ol {
     background-color: green;
     color:white;
 }
 
-.to-be-learned ul {
+.to-be-learned ol {
     background-color: orange;
     color:green;
 }
@@ -16,7 +16,7 @@
     background-color: green;
 }
 
-.already-learned h4 code {
+#special1 + h4 > code {
     border:2px solid blue;
 }
 
