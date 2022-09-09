@@ -1,20 +1,24 @@
-li {
-    margin-bottom: 16px;
+.theory::first-letter {
+    font-size: 36px;
+    margin-left: 16px;
+    color: orange;
 }
 
-ul > li:first-child > span {
-    background-color: red;
-    color: white;
+.theory::first-line {
+    font-size: 24px;
 }
-ul > li:last-child > span {
-    background-color: black;
+
+.theory::selection {
+    background-color: red;
     color:white;
 }
 
-ul > li:nth-child(even) > span {
-    margin-left: 16px;
+a::before{
+    content:">";
+    color:green;
 }
 
-.paragraphs p:nth-of-type(2n+1) {
-    background-color: grey;
+a::after{
+    content:"<";
+    color:green;
 }
