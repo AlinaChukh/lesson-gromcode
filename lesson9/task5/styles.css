@@ -21,6 +21,7 @@ main{
     height: 5000px;
     padding: 25%;
     z-index: 1;
+    box-sizing: border-box;
 }
 
 .head{
@@ -56,20 +57,18 @@ main{
     height: 30px;
     border-radius: 50%;
     background-color: grey;
-    display: inline-block;
+    display: block;
 }
 
 .eye_right {
-    float:right;
-    position: relative;
-    top:40%;
-    
+    float: right;
+    margin-top: 80px;
+   
 }
 
 .eye.eye_left {
-    float:left;
-    position: relative;
-    top:40%;
+    margin-top: 80px;
+    float: left;
 }
    
 
