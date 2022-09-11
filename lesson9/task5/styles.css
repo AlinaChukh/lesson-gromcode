@@ -1,6 +1,5 @@
 body{
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
 }
 
 .header{
@@ -8,34 +7,27 @@ body{
     background-color:darkturquoise;
     z-index: 2;
     position:fixed;
-    width: 100%;
-    
-}
-
-.navigation{
-    height: 40px;
-    float: left;
-    width: 100%;
-    
+    width: 100%;  
 }
 
 .nav-list {
-    margin: 0 auto;
-    padding-top: 10px;
-    color: white;
+    color: white;  
+    margin: 0;
+    line-height: 40px;
+    padding-left: 30px;
+
 }
 
 .nav-item{
-    display: inline;
-    margin: 0;
-    padding-right: 10px;
+   margin-left: 16px;
+   height: 40px;
+   display: inline;
     
 }
 
 main{
     background-color: beige;
     height: 5000px;
-    /*padding: 25%;*/
     z-index: 1;
     box-sizing: border-box; 
     margin: 0;
