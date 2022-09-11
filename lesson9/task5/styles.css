@@ -14,15 +14,13 @@ body{
     color: white;  
     margin: 0;
     line-height: 40px;
-    padding-left: 30px;
+    padding-left: 25px;
 
 }
 
 .nav-item{
    margin-left: 16px;
-   height: 40px;
    display: inline;
-    
 }
 
 main{
