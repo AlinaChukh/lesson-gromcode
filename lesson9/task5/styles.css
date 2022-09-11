@@ -15,21 +15,18 @@ body{
 
 .navigation{
     color: white;
-    float: left;
-    width: 100%;
-    height: 40px;    
+    height: 40px;
 }
 
 .nav-list {
     margin: 0;
     padding-top: 10px;
-    display: table-cell;
- 
 }
 
 .nav-item{
     display: inline;
-    margin-left: 16px;
+    margin: 0;
+    margin-right: 16px;
 }
 
 main{
