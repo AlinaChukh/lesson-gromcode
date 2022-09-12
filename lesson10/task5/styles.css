@@ -1,0 +1,17 @@
+header h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.article {
+  margin: 8px;
+  padding: 16px;
+  background-color: bisque;
+  flex-basis: 300px;
+  box-sizing: border-box;
+}
+
+.articles-list {
+  display: flex;
+  flex-flow: column wrap;
+}
