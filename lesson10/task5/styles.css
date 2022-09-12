@@ -1,4 +1,4 @@
-header h1 {
+header {
   display: flex;
   justify-content: center;
 }
@@ -8,10 +8,9 @@ header h1 {
   padding: 16px;
   background-color: bisque;
   flex-basis: 300px;
-  box-sizing: border-box;
 }
 
 .articles-list {
   display: flex;
-  flex-flow: column wrap;
+  flex-wrap: wrap;
 }
