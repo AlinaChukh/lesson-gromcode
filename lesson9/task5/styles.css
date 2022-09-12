@@ -1,82 +1,78 @@
-body{
-    box-sizing: border-box;
+body {
+  box-sizing: border-box;
 }
 
-.header{
-    height: 40px;
-    background-color:darkturquoise;
-    z-index: 2;
-    position:fixed;
-    width: 100%;  
+.header {
+  height: 40px;
+  background-color: darkturquoise;
+  z-index: 2;
+  position: fixed;
+  width: 100%;
 }
 
 .nav-list {
-    color: white;  
-    margin: 0;
-    line-height: 40px;
-    list-style: none;
-
+  color: white;
+  margin: 0;
+  line-height: 40px;
+  list-style: none;
 }
 
-.nav-item{
-    float:left;
-    margin-left: 16px;
-    display: inline;
+.nav-item {
+  float: left;
+  margin-left: 16px;
+  display: inline;
 }
 
-main{
-    background-color: beige;
-    height: 5000px;
-    z-index: 1;
-    box-sizing: border-box; 
-    margin: 0;
-    padding-top: 25%;
+main {
+  background-color: beige;
+  height: 5000px;
+  z-index: 1;
+  box-sizing: border-box;
+  margin: 0;
+  padding-top: 25%;
 }
 
-.head{
-    width: 200px;
-    height: 200px;
-    background-color: aquamarine;
-    margin: 0 auto; 
+.head {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  margin: 0 auto;
 }
-    
+
 .ear {
-    width: 40px;
-    height: 60px;
-    background-color: brown; 
+  width: 40px;
+  height: 60px;
+  background-color: brown;
 }
 
-.ear_right{
-    float:right;
-    position: relative;
-    top:-60px;
-    left: 40px;
+.ear_right {
+  float: right;
+  position: relative;
+  top: -60px;
+  left: 40px;
 }
 
-.ear_left{
-    float:left;
-    position: relative;
-    top:-60px;
-    left: -40px;
+.ear_left {
+  float: left;
+  position: relative;
+  top: -60px;
+  left: -40px;
 }
 
-.eye{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: grey;
-    display: block;
+.eye {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: grey;
+  display: block;
 }
 
 .eye_right {
-    float: right;
-    margin-top: 80px;
-   
+  float: right;
+  margin-top: 80px;
 }
 
 .eye.eye_left {
-    margin-top: 80px;
-    float: left;
+  margin-top: 80px;
+  float: left;
 }
-   
-
