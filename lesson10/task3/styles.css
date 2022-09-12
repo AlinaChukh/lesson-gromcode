@@ -14,7 +14,6 @@
   list-style: none;
   padding: 0;
   margin: auto;
-  margin-left: 16px;
 }
 
 .list_item {
@@ -35,7 +34,7 @@
 .section {
   display: flex;
   background-color: pink;
-  width: 100%;
+  flex-grow: 1;
   justify-content: center;
 }
 
@@ -48,6 +47,7 @@
   flex-direction: column;
   background-color: grey;
   width: 200px;
+  box-sizing: border-box;
 }
 
 .aside h2 {
