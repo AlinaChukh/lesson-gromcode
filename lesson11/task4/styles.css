@@ -12,4 +12,9 @@ div {
   padding: 8px;
   position: absolute;
   bottom: -40px;
+  display: none;
+}
+
+div:hover .tooltip {
+  display: inline;
 }
