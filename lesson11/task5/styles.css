@@ -1,0 +1,9 @@
+.gallery {
+  display: flex;
+}
+
+.thumb {
+  flex-shrink: 0;
+  flex-grow: 0;
+  margin: 8px;
+}
