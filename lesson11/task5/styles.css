@@ -1,0 +1,13 @@
+.gallery {
+  display: flex;
+  overflow: hidden;
+}
+
+.gallery:hover {
+  overflow-x: scroll;
+  cursor: all-scroll;
+}
+
+.thumd {
+  padding: 8px;
+}
