@@ -5,20 +5,21 @@
 .dropdown {
   margin: 16px;
   position: relative;
-  display: flex;
+  display: inline-block;
+  padding: 16px;
+  background-color: darkgreen;
 }
 
 .menu-button {
-  padding: 16px;
-  background-color: darkgreen;
   opacity: 0.8;
-  font-size: 16px;
+
   color: white;
 }
 
 .dropdown:hover .menu-button {
   opacity: 1;
   cursor: pointer;
+  font-size: 16px;
 }
 
 .menu-list {
@@ -27,6 +28,7 @@
   display: none;
   position: absolute;
   top: 50px;
+  left: 0px;
   list-style-type: none;
   background-color: lightcyan;
   color: black;
