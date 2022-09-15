@@ -4,8 +4,8 @@
 }
 
 .gallery:hover {
-  overflow-x: scroll;
   cursor: all-scroll;
+  overflow-x: scroll;
 }
 
 .thumb {
