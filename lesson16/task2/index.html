@@ -14,53 +14,55 @@
   </head>
 
   <body>
-    <div>
-      <label for="lastName-main">Last Name</label>
-      <input
-        id="lastName-main"
-        type="text"
-        name="lastName"
-        value="Emerson"
-        readonly
-      />
-    </div>
+    <form>
+      <div>
+        <label for="lastName-main">Last Name</label>
+        <input
+          id="lastName-main"
+          type="text"
+          name="lastName"
+          value="Emerson"
+          readonly
+        />
+      </div>
 
-    <div>
-      <label for="number-main">Age</label>
-      <input
-        id="number-main"
-        type="number"
-        name="age"
-        value="17"
-        min="3"
-        max="10"
-      />
-    </div>
+      <div>
+        <label for="number-main">Age</label>
+        <input
+          id="number-main"
+          type="number"
+          name="age"
+          value="17"
+          min="3"
+          max="10"
+        />
+      </div>
 
-    <div>
-      <input type="checkbox" name="agree" id="main-check" disabled />
-      <label for="main-check">Accept terms and conditions</label>
-    </div>
+      <div>
+        <input type="checkbox" name="agree" id="main-check" disabled />
+        <label for="main-check">Accept terms and conditions</label>
+      </div>
 
-    <div class="choose-gender">
-      <input type="radio" name="gender" id="male-radio" />
-      <label for="male-radio">Male</label>
-      <input type="radio" name="gender" id="female-radio" />
-      <label for="female-radio">Female</label>
-      <input type="radio" name="gender" id="secret-radio" checked />
-      <label for="secret-radio">Secret</label>
-    </div>
+      <div class="choose-gender">
+        <input type="radio" name="gender" id="male-radio" />
+        <label for="male-radio">Male</label>
+        <input type="radio" name="gender" id="female-radio" />
+        <label for="female-radio">Female</label>
+        <input type="radio" name="gender" id="secret-radio" checked />
+        <label for="secret-radio">Secret</label>
+      </div>
 
-    <div>
-      <textarea
-        name="description"
-        placeholder="Write description..."
-        maxlength="10"
-      ></textarea>
-    </div>
+      <div>
+        <textarea
+          name="description"
+          placeholder="Write description..."
+          maxlength="10"
+        ></textarea>
+      </div>
 
-    <div>
-      <button type="submit">Submit</button>
-    </div>
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
   </body>
 </html>
