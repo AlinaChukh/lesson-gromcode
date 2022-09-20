@@ -1,7 +1,8 @@
-body {
+.page {
   box-sizing: border-box;
   background-color: bisque;
-  padding: 15%;
+  display: flex;
+  margin: auto;
 }
 
 .login-form {
