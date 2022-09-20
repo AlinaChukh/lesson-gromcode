@@ -3,6 +3,7 @@
   background-color: bisque;
   display: flex;
   margin: auto;
+  height: 100vh;
 }
 
 .login-form {
