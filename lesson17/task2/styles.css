@@ -8,17 +8,14 @@ table {
 
 div {
   overflow-x: auto;
-  box-sizing: border-box;
 }
 
 th,
 td {
+  border-collapse: collapse;
   border: 1px solid black;
   text-align: right;
   padding: 4px;
-}
-
-tr {
   line-height: 40px;
 }
 
@@ -31,7 +28,7 @@ tbody > tr:hover:nth-child(odd) {
   color: white;
 }
 
-thead {
+th {
   background-color: aqua;
 }
 
