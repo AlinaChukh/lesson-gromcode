@@ -15,11 +15,8 @@ th,
 td {
   border: 1px solid black;
   text-align: right;
-}
-
-tr {
-  line-height: 40px;
   padding: 4px;
+  line-height: 40px;
 }
 
 tbody > tr:nth-child(odd) {
