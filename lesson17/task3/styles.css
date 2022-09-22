@@ -1,5 +1,8 @@
-table {
+* {
   box-sizing: border-box;
+}
+
+table {
   margin: 16px;
   text-align: center;
   border: 1px solid black;
@@ -27,7 +30,8 @@ td:last-child {
   border: none;
 }
 
-tr:first-child,
-tr:last-child {
+tr:first-child td,
+tr:last-child td {
   background-color: white !important;
+  border: none;
 }
