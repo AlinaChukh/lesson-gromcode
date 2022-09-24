@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.block {
+  animation: move 2s;
+  animation-timing-function: ease;
+  animation-fill-mode: none;
+  /*animation-iteration-count: infinite;*/
+  width: 250px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: coral;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+@keyframes move {
+  0% {
+    top: -100px;
+  }
+  100% {
+    top: calc(50vh - 50px);
+  }
+}
+
+.block_text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
