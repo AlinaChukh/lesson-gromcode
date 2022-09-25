@@ -21,6 +21,7 @@
   font-size: 16px;
   text-transform: uppercase;
   animation: blinking 2s linear backwards;
+  opacity: 0.1;
 }
 @keyframes blinking {
   0% {
@@ -42,12 +43,12 @@
   border-top: 4px solid black;
   margin-bottom: 8px;
   animation: spin 2s linear;
-  transform: rotate(15deg);
+  transform: rotate(13deg);
 }
 
 @keyframes spin {
   from {
-    transform: rotate(15deg);
+    transform: rotate(13deg);
   }
   to {
     transform: rotate(360deg);
