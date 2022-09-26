@@ -35,7 +35,7 @@ body {
 
 .main {
   display: flex;
-  height: 84vh;
+  flex: 1;
 }
 
 .navigation {
