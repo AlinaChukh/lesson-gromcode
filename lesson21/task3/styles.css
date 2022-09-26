@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana;
+  color: #555;
+  font-size: 16px;
+}
+
+.header h1 {
+  color: white;
+  text-align: center;
+  margin: auto;
+  background-image: linear-gradient(45deg, red, orange);
+  width: 100%;
+  line-height: 71px;
+  height: 10vh;
+}
+
+.footer {
+  flex: 0 0 auto;
+  justify-content: center;
+  align-content: center;
+  background-color: #e5e5e5;
+  padding: 0.5em;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  height: 5vh;
+}
+
+.navigation {
+  padding: 0.5em;
+  width: 20%;
+}
+
+.main {
+  display: flex;
+  height: 85vh;
+}
+.section {
+  padding: 0.5em;
+  width: 60%;
+  font-size: 1.25em;
+  line-height: 1.75em;
+}
+
+.news {
+  padding: 0.5em;
+  width: 20%;
+}
+
+.css-units {
+  color: #8b0000;
+  background-color: #e5e5e5;
+  font-size: 1.125em;
+  font-weight: 700;
+}
+
+.section__header {
+  font-size: 5vw;
+  text-align: center;
+}
+
+.nav-list-item {
+  padding: 0;
+  list-style: none;
+  background-color: #808080;
+  line-height: 2em;
+  margin-bottom: 0.5em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.nav-list-link {
+  border: none;
+  width: 100%;
+  padding: 0.5em;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-list {
+  width: 100%;
+  padding: 0;
+}
