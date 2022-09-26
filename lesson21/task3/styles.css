@@ -30,7 +30,6 @@ body {
   background-color: #e5e5e5;
   padding: 0.5em;
   width: 100%;
-  margin: auto;
   display: flex;
 }
 
@@ -42,34 +41,6 @@ body {
 .navigation {
   padding: 0.5em;
   width: 20%;
-}
-
-.section {
-  padding: 0.5em;
-  width: 60%;
-
-  font-size: 1.25em;
-}
-
-.units-list {
-  line-height: 1.75em;
-}
-
-.news {
-  padding: 0.5em;
-  width: 20%;
-}
-
-.css-units {
-  color: #8b0000;
-  background-color: #e5e5e5;
-  font-size: 1.125em;
-  font-weight: 700;
-}
-
-.section__header {
-  font-size: 5vw;
-  text-align: center;
 }
 
 .nav-list-item {
@@ -92,4 +63,31 @@ body {
 
 .nav-list {
   padding: 0;
+}
+
+.section {
+  padding: 0.5em;
+  width: 60%;
+  font-size: 1.25em;
+}
+
+.units-list {
+  line-height: 1.75em;
+}
+
+.news {
+  padding: 0.5em;
+  width: 20%;
+}
+
+.css-units {
+  color: #8b0000;
+  background-color: #e5e5e5;
+  font-size: 1.125em;
+  font-weight: 700;
+}
+
+.section__header {
+  font-size: 5vw;
+  text-align: center;
 }
