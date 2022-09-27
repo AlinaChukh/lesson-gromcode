@@ -45,7 +45,6 @@ body {
 
 .nav-list-item {
   background-color: #808080;
-  line-height: 2em;
   margin-bottom: 0.5em;
   overflow: hidden;
   white-space: nowrap;
@@ -54,13 +53,15 @@ body {
 }
 
 .nav-list-link {
+  line-height: 2em;
   border: none;
   color: white;
   text-decoration: none;
+  padding: 0.5em;
 }
 
 .nav-list {
-  padding: 0.5em;
+  padding: 0;
 }
 
 .section {
