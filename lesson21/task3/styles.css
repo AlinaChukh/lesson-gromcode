@@ -55,14 +55,12 @@ body {
 
 .nav-list-link {
   border: none;
-  width: 100%;
-  padding: 0.5em;
   color: white;
   text-decoration: none;
 }
 
 .nav-list {
-  padding: 0;
+  padding: 0.5em;
 }
 
 .section {
