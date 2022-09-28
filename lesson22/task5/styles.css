@@ -136,12 +136,16 @@ img {
     flex: 2;
   }
 
+  .navigation {
+    width: 20vw;
+  }
+
   .section {
     width: 60vw;
     flex-grow: 1;
   }
 
   .news {
-    width: 20%;
+    width: 20vw;
   }
 }
