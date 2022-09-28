@@ -128,8 +128,11 @@ img {
     flex-direction: row;
   }
 
+  .navigation {
+    flex-grow: 1;
+  }
+
   .navigation_section {
-    display: flex;
     flex: 2;
   }
 
