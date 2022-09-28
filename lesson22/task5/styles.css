@@ -114,10 +114,6 @@ img {
     width: 20%;
   }
 
-  .section {
-    width: 80%;
-  }
-
   .main {
     flex-direction: column;
   }
