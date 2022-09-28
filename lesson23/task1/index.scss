@@ -1,0 +1,32 @@
+@import 'variables.scss';
+@import 'header.scss';
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: $base-font-size;
+}
+
+.nav-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  &__item {
+    list-style-type: none;
+    border-radius: $border-radius;
+    color: $text-color-secondary;
+    padding: $unit;
+    margin-left: $unit;
+    font-weight: 700;
+    background-color: $color-secondary;
+    cursor: pointer;
+
+    &_selected {
+      background-color: $color-primary;
+    }
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+}

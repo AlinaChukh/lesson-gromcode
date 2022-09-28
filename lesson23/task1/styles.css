@@ -1,0 +1,35 @@
+.header {
+  height: 56px;
+  background-color: #eee;
+  display: flex;
+  align-items: center;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+.nav-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.nav-list__item {
+  list-style-type: none;
+  border-radius: 4px;
+  color: #fff;
+  padding: 8px;
+  margin-left: 8px;
+  font-weight: 700;
+  background-color: #ff7f50;
+  cursor: pointer;
+}
+.nav-list__item_selected {
+  background-color: #fb0;
+}
+.nav-list__item:hover {
+  opacity: 0.7;
+}
+
+/*# sourceMappingURL=styles.css.map */
