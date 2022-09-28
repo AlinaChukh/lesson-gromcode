@@ -137,7 +137,7 @@ img {
   }
 
   .section {
-    width: 60%;
+    width: 60vw;
     flex-grow: 1;
   }
 
