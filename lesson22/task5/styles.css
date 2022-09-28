@@ -104,7 +104,7 @@ img {
   height: auto;
 }
 
-@media (min-width: 600px) and (max-width: 1200px) {
+@media screen and (min-width: 600px) {
   .navigation_section {
     display: flex;
     flex-direction: row;
@@ -130,11 +130,6 @@ img {
 
   .navigation_section {
     display: flex;
-    flex: 2;
-  }
-
-  .navigation {
-    width: 20%;
     flex: 2;
   }
 
