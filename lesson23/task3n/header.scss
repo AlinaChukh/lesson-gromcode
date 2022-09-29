@@ -1,0 +1,8 @@
+@import 'breakpoints.scss';
+
+.header {
+  height: $unit-main;
+  background-color: #006400;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,70 @@
+@import 'breakpoints.scss';
+@import 'header.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: $unit * 2;
+}
+
+nav {
+  height: 100%;
+}
+.menu {
+  margin: 0;
+  margin-left: $unit-main;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: flex;
+  list-style-type: none;
+  position: relative;
+  height: 100%;
+
+  &__item {
+    padding: 0 $unit;
+    color: #fff;
+    display: flex;
+    height: 100%;
+    align-items: center;
+
+    &:hover {
+      background-color: #9acd32;
+    }
+
+    &_active {
+      color: yellow;
+    }
+  }
+}
+
+.submenu {
+  margin: 0;
+  padding: 0;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  min-width: 120px;
+  z-index: 1;
+  cursor: pointer;
+  position: absolute;
+  top: 47px;
+  height: auto;
+  list-style-type: none;
+  background-color: #ff7f50;
+  display: none;
+
+  &__item {
+    padding: $unit;
+    margin: $unit;
+
+    &:hover {
+      color: black;
+    }
+  }
+}
+
+.menu__item-text:hover + .submenu {
+  display: block;
+}
