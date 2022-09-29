@@ -1,0 +1,41 @@
+$unit: 8px;
+
+$sm: 600px;
+$md: 899px;
+$lg: 1199px;
+
+@mixin for-small {
+  @media screen and (max-width: $sm) {
+    @content;
+  }
+}
+
+@mixin for-medium {
+  @media screen and (min-width: $sm) {
+    @content;
+  }
+}
+
+@mixin for-large {
+  @media screen and (min-width: $md) {
+    @content;
+  }
+}
+
+@mixin for-large-big {
+  @media screen and (min-width: $lg) {
+    @content;
+  }
+}
+
+@mixin for-landscape {
+  @media screen and (orientation: landscape) {
+    @content;
+  }
+}
+
+@mixin for-portrait {
+  @media screen and (orientation: portrait) {
+    @content;
+  }
+}
