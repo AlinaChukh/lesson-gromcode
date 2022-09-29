@@ -1,0 +1,18 @@
+$unit: 8px;
+$min-height: 200px;
+$display-flex: flex;
+
+$sl: 600px;
+$sm: 900px;
+
+@mixin for-small {
+  @media screen and (min-width: $sl) {
+    @content;
+  }
+}
+
+@mixin for-medium {
+  @media screen and (min-width: $sm) {
+    @content;
+  }
+}

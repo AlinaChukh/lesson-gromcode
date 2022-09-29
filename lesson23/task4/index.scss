@@ -1,0 +1,54 @@
+@import 'layout.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+.news {
+  background-color: #0ff;
+  min-height: $min-height;
+  display: $display-flex;
+  flex: 1;
+}
+
+.container {
+  display: $display-flex;
+  flex-direction: column;
+
+  @include for-medium {
+    flex-direction: row;
+  }
+}
+
+.products {
+  display: $display-flex;
+  flex: 2;
+  flex-direction: column;
+
+  &__navigation {
+    background-color: #ff7f50;
+    min-height: $min-height;
+    display: $display-flex;
+    flex: 1;
+  }
+  &__list {
+    background-color: #006400;
+    min-height: $min-height;
+    display: $display-flex;
+    flex: 1;
+  }
+
+  @include for-small {
+    flex-direction: row;
+    flex: 2;
+  }
+}
+
+span {
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: $unit;
+  margin: auto;
+  background-color: #faebd7;
+  border-radius: 4px;
+}
