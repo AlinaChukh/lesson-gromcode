@@ -1,0 +1,33 @@
+@import 'header.css';
+@import 'footer.css';
+@import 'headline.css';
+@import 'common.css';
+@import 'about.css';
+@import 'customers.css';
+@import 'features.css';
+@import 'tips.css';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  color: #2b292d;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.page {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+@media screen and (min-width: 400px) {
+  .page {
+    width: 1400px;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+}
